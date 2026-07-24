@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Upword — английский для работы и жизни под твой уровень</title>
+<meta name="description" content="Тёплый тренажёр английского: живые фразы для собеседований, созвонов, переговоров и путешествий. Приложение адаптируется под твой уровень — от простых формулировок до делового английского. 5 минут в день, без рекламы. Android (RuStore) и веб." />
+<meta name="keywords" content="английский для работы, деловой английский, разговорный английский, английский для собеседования, учить английский онлайн, английский для карьеры, английский по фразам" />
+<meta name="author" content="Upword" />
+<link rel="canonical" href="https://ed30091979.github.io/upword-web/landing.html" />
+<meta name="theme-color" content="#E2725B" />
+<link rel="icon" href="lp-icon.png" />
+<link rel="apple-touch-icon" href="lp-icon.png" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Upword" />
+<meta property="og:locale" content="ru_RU" />
+<meta property="og:title" content="Upword — английский под твой уровень с тренером Шанти" />
+<meta property="og:description" content="Живые фразы для работы, карьеры и жизни. Приложение подстраивает и сложность, и тип заданий под тебя. 5 минут в день, без рекламы." />
+<meta property="og:url" content="https://ed30091979.github.io/upword-web/landing.html" />
+<meta property="og:image" content="https://ed30091979.github.io/upword-web/lp-icon.png" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Upword — английский под твой уровень" />
+<meta name="twitter:description" content="Живые фразы для работы и жизни. Приложение адаптируется под твой уровень. 5 минут в день, без рекламы." />
+<meta name="twitter:image" content="https://ed30091979.github.io/upword-web/lp-icon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "Upword — английский с Шанти",
+  "operatingSystem": "Android, Web",
+  "applicationCategory": "EducationalApplication",
+  "inLanguage": "ru",
+  "description": "Тёплый тренажёр практичного английского: живые фразы для работы, карьеры и жизни. Приложение адаптируется под уровень пользователя.",
+  "url": "https://ed30091979.github.io/upword-web/landing.html",
+  "image": "https://ed30091979.github.io/upword-web/lp-icon.png",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "RUB" },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5", "ratingCount": "1", "bestRating": "5" }
+}
+</script>
+
+<style>
+  :root{
+    --bg:#F6EFE3; --card:#FFFCF4; --ink:#26201A; --ink-soft:#6b5f52;
+    --terra:#E2725B; --terra-dark:#C85B45; --ochre:#E8A33D; --cobalt:#2C4CC8;
+    --line:#e7dcc9; --radius:22px;
+    --shadow:6px 6px 0 rgba(38,32,26,.12);
+    --shadow-sm:4px 4px 0 rgba(38,32,26,.10);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"Nunito",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    background:var(--bg); color:var(--ink); line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  .btn{
+    display:inline-flex;align-items:center;gap:10px;justify-content:center;
+    font-weight:800;font-size:17px;text-decoration:none;cursor:pointer;
+    padding:15px 26px;border-radius:16px;border:2px solid var(--ink);
+    transition:transform .08s ease, box-shadow .08s ease;
+    box-shadow:var(--shadow-sm);
+  }
+  .btn:active{transform:translate(3px,3px);box-shadow:1px 1px 0 rgba(38,32,26,.12)}
+  .btn-primary{background:var(--terra);color:#fff}
+  .btn-ghost{background:var(--card)}
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:13px;
+    letter-spacing:.06em;text-transform:uppercase;color:var(--terra-dark);
+    background:#fff;border:2px solid var(--line);border-radius:999px;padding:7px 14px;
+  }
+
+  /* header */
+  header{position:sticky;top:0;z-index:20;background:rgba(246,239,227,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;max-width:1080px;margin:0 auto}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:900;font-size:20px}
+  .brand img{width:34px;height:34px;border-radius:9px;border:2px solid var(--ink)}
+  .nav .btn{padding:10px 18px;font-size:15px}
+
+  /* hero */
+  .hero{padding:56px 0 40px}
+  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+  h1{font-size:clamp(34px,5vw,54px);line-height:1.08;font-weight:900;letter-spacing:-.01em}
+  h1 .u{color:var(--terra-dark)}
+  .lede{font-size:clamp(17px,2.2vw,21px);color:var(--ink-soft);margin:20px 0 28px;max-width:38ch}
+  .cta-row{display:flex;flex-wrap:wrap;gap:14px}
+  .rating-chip{display:flex;align-items:center;gap:10px;margin-top:22px;font-weight:700;color:var(--ink-soft);font-size:15px}
+  .stars{color:var(--ochre);font-size:18px;letter-spacing:2px}
+
+  /* phone */
+  .phone{
+    position:relative;width:min(300px,80vw);margin:0 auto;
+    border:12px solid var(--ink);border-radius:42px;overflow:hidden;
+    background:var(--ink);box-shadow:var(--shadow);
+  }
+  .phone img{width:100%;display:block}
+  .hero-visual{position:relative}
+  .hero-shanti{position:absolute;width:120px;right:-6px;bottom:-14px;filter:drop-shadow(4px 6px 0 rgba(38,32,26,.14));animation:bob 3.2s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+
+  /* sections */
+  section{padding:52px 0}
+  .sec-head{text-align:center;max-width:640px;margin:0 auto 38px}
+  h2{font-size:clamp(26px,3.6vw,38px);font-weight:900;letter-spacing:-.01em}
+  .sec-head p{color:var(--ink-soft);font-size:18px;margin-top:12px}
+
+  /* adaptation */
+  .levels{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .lvl{background:var(--card);border:2px solid var(--ink);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow-sm)}
+  .lvl .tag{display:inline-block;font-weight:900;font-size:13px;text-transform:uppercase;letter-spacing:.05em;padding:5px 12px;border-radius:999px;margin-bottom:14px}
+  .lvl.n .tag{background:#eaf5ec;color:#2f7d4f}
+  .lvl.c .tag{background:#eef1fc;color:var(--cobalt)}
+  .lvl.p .tag{background:#fbeee6;color:var(--terra-dark)}
+  .lvl .phrase{font-weight:800;font-size:19px;margin:6px 0 12px}
+  .lvl ul{list-style:none;color:var(--ink-soft);font-size:15px;font-weight:600}
+  .lvl li{padding:4px 0 4px 22px;position:relative}
+  .lvl li::before{content:"→";position:absolute;left:0;color:var(--terra);font-weight:900}
+
+  /* features */
+  .feat{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .card{background:var(--card);border:2px solid var(--ink);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow-sm)}
+  .card .ico{font-size:30px;margin-bottom:12px}
+  .card h3{font-size:19px;font-weight:900;margin-bottom:7px}
+  .card p{color:var(--ink-soft);font-size:15px;font-weight:600}
+
+  /* situations */
+  .situations{background:var(--terra);border-radius:32px;padding:44px 28px;text-align:center;border:2px solid var(--ink);box-shadow:var(--shadow)}
+  .situations h2,.situations p{color:#fff}
+  .situations p{opacity:.92;margin-top:12px}
+  .chips{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:26px}
+  .chip{background:#fff;color:var(--ink);font-weight:800;padding:11px 18px;border-radius:999px;border:2px solid var(--ink);box-shadow:var(--shadow-sm);font-size:15px}
+
+  /* proof */
+  .proof{display:grid;grid-template-columns:1fr 1.2fr;gap:26px;align-items:center}
+  .quote{background:var(--card);border:2px solid var(--ink);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .quote .stars{font-size:22px}
+  .quote blockquote{font-size:22px;font-weight:800;margin:12px 0}
+  .quote cite{color:var(--ink-soft);font-weight:700;font-style:normal}
+  .why{display:grid;gap:14px}
+  .why div{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:2px solid var(--line);border-radius:16px;padding:16px 18px}
+  .why b{display:block;font-size:16px}
+  .why span{color:var(--ink-soft);font-weight:600;font-size:15px}
+  .why .e{font-size:24px;flex:none}
+
+  /* final cta */
+  .final{text-align:center;background:var(--card);border:2px solid var(--ink);border-radius:32px;padding:52px 28px;box-shadow:var(--shadow)}
+  .final img{width:96px;margin:0 auto 18px}
+  .final h2{margin-bottom:10px}
+  .final p{color:var(--ink-soft);font-size:18px;margin-bottom:26px}
+  .final .cta-row{justify-content:center}
+
+  footer{padding:40px 0 60px;text-align:center;color:var(--ink-soft);font-weight:600;font-size:14px}
+  footer a{color:var(--terra-dark);text-decoration:none;font-weight:800}
+  footer .links{display:flex;gap:18px;justify-content:center;flex-wrap:wrap;margin-bottom:14px}
+
+  @media (max-width:860px){
+    .hero-grid,.proof{grid-template-columns:1fr;gap:34px}
+    .hero-visual{order:-1}
+    .levels,.feat{grid-template-columns:1fr}
+    .lede{max-width:none}
+    .hero{padding:36px 0 24px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand"><img src="lp-icon.png" alt="Upword" /> Upword</div>
+    <a class="btn btn-primary" href="https://www.rustore.ru/catalog/app/com.edfurman.upword">Установить</a>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">🐾 Английский с тренером Шанти</span>
+        <h1 style="margin-top:18px">Английский, который <span class="u">подстраивается под тебя</span></h1>
+        <p class="lede">Учи не абстрактные слова, а живые фразы для реальных дел: собеседование, созвон, переговоры, поездка. 5 минут в день — без зубрёжки грамматики.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://www.rustore.ru/catalog/app/com.edfurman.upword">▶ Установить в RuStore</a>
+          <a class="btn btn-ghost" href="https://ed30091979.github.io/upword-web/">Попробовать в браузере</a>
+        </div>
+        <div class="rating-chip"><span class="stars">★★★★★</span> Тёплый дизайн · без рекламы · бесплатно</div>
+      </div>
+      <div class="hero-visual">
+        <div class="phone"><img src="lp-screen-home.png" alt="Главный экран Upword" /></div>
+        <img class="hero-shanti" src="lp-shanti.png" alt="Чихуахуа Шанти" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ADAPTATION -->
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Одна фраза — под твой уровень</h2>
+        <p>В начале короткий тест, а дальше Шанти сама регулирует и сложность фраз, и тип заданий. Одно и то же можно сказать по-разному:</p>
+      </div>
+      <div class="levels">
+        <div class="lvl n">
+          <span class="tag">Новичок</span>
+          <div class="phrase">«Can you help me?»</div>
+          <ul><li>простые формулировки</li><li>выбери перевод</li><li>больше подсказок и озвучки</li></ul>
+        </div>
+        <div class="lvl c">
+          <span class="tag">Уверенный</span>
+          <div class="phrase">«Could you give me a hand?»</div>
+          <ul><li>собери фразу из слов</li><li>заполни пропуск</li><li>меньше опор</li></ul>
+        </div>
+        <div class="lvl p">
+          <span class="tag">Профи</span>
+          <div class="phrase">«Would you be able to help me with this?»</div>
+          <ul><li>формальный английский</li><li>вспомни по памяти, найди ошибку</li><li>ответь на ситуацию</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Что внутри</h2>
+        <p>Всё, чтобы заниматься каждый день по-настоящему хотелось.</p>
+      </div>
+      <div class="feat">
+        <div class="card"><div class="ico">🎯</div><h3>60+ уроков по делу</h3><p>Карьера, Работа, Бизнес, Жизнь. Один урок — 4–5 минут.</p></div>
+        <div class="card"><div class="ico">🔊</div><h3>Живая озвучка</h3><p>Каждая фраза — обычный и медленный темп, русская транскрипция, пример.</p></div>
+        <div class="card"><div class="ico">🎤</div><h3>Говорение</h3><p>Произноси фразы вслух прямо в уроке и привыкай к речи.</p></div>
+        <div class="card"><div class="ico">🧠</div><h3>Умное повторение</h3><p>Приложение помнит, что ты начал забывать, и вовремя зовёт освежить.</p></div>
+        <div class="card"><div class="ico">🔥</div><h3>Стрик и задания дня</h3><p>Серии с заморозками и печати мастера — привычка формируется сама.</p></div>
+        <div class="card"><div class="ico">🐕</div><h3>Тренер Шанти</h3><p>Чихуахуа встречает, подбадривает и радуется твоим успехам.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SITUATIONS -->
+  <section>
+    <div class="wrap">
+      <div class="situations">
+        <h2>Для тех, кому английский нужен по делу</h2>
+        <p>Пройти собеседование, говорить на созвонах, вести переписку, путешествовать — и чувствовать себя уверенно.</p>
+        <div class="chips">
+          <span class="chip">Собеседование</span><span class="chip">Созвон</span><span class="chip">Переговоры</span>
+          <span class="chip">Переписка</span><span class="chip">Кафе</span><span class="chip">Такси</span>
+          <span class="chip">Банк</span><span class="chip">Аэропорт</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section>
+    <div class="wrap proof">
+      <div class="quote">
+        <div class="stars">★★★★★</div>
+        <blockquote>«Спасибо, приложение супер»</blockquote>
+        <cite>— Бажена, RuStore</cite>
+      </div>
+      <div class="why">
+        <div><span class="e">🚫</span><div><b>Никакой рекламы</b><span>Ничто не отвлекает от занятий — только ты и английский.</span></div></div>
+        <div><span class="e">⏱️</span><div><b>5 минут в день</b><span>Короткие уроки, которые реально вписываются в день.</span></div></div>
+        <div><span class="e">💬</span><div><b>Живые фразы, а не правила</b><span>Только то, что действительно говорят — без зубрёжки грамматики.</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL -->
+  <section>
+    <div class="wrap">
+      <div class="final">
+        <img src="lp-shanti.png" alt="Шанти" />
+        <h2>Начни сегодня — Шанти уже ждёт</h2>
+        <p>Бесплатно. Установи на Android или открой прямо в браузере.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="https://www.rustore.ru/catalog/app/com.edfurman.upword">▶ Установить в RuStore</a>
+          <a class="btn btn-ghost" href="https://ed30091979.github.io/upword-web/">Открыть в браузере</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="links">
+      <a href="https://ed30091979.github.io/upword-web/">Веб-версия</a>
+      <a href="https://www.rustore.ru/catalog/app/com.edfurman.upword">RuStore</a>
+      <a href="privacy.html">Конфиденциальность</a>
+      <a href="mailto:edfurman1979@gmail.com">Поддержка</a>
+    </div>
+    <div>Upword — тёплый тренер английского. Сделано с любовью и заботой 🐾</div>
+  </div>
+</footer>
+
+</body>
+</html>
